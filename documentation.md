@@ -1,6 +1,6 @@
 # Overview
 
-REDMANE aims to facilitate data processing and access across labs, teams and even organisations.
+REDMANE aims to streamline data processing and access across labs, teams, and organizations. Given that raw data can be massive—reaching terabytes in size—and may contain sensitive patient information or proprietary data, REDMANE ensures secure handling while maintaining accessibility for authorized users. 
 This document focuses on the Workflow that data go through to be transformed from Raw to processed and eventually summarised.
 An explanatation of the different data types is provided for further clarification.
 
