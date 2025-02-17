@@ -76,12 +76,12 @@ For Whole Genome Sequencing (WGS), Nextflow provides an integrated nf-core pipel
 
 #### Setting Up Sarek on Seqera:
 
-1- Request an access to Milton HPC refer to this link: [https://wehieduau.sharepoint.com/sites/rc2/SitePages/using-milton.aspx]
-2- Submit tickets to ask for access to Seqera
-3- Upload raw data to /vast/scratch/users/yourname/ + any subfolder you desire
-4- Generate access token on Seqera and fill it in the Nextflow Tower Agent page
-5- Select Sarek_344 from Lanchpad and launch it
-6-Fill in Run setup configuration and lanch the pipeline
+1. Request an access to Milton HPC refer to this link: [https://wehieduau.sharepoint.com/sites/rc2/SitePages/using-milton.aspx]
+2. Submit tickets to ask for access to Seqera
+3. Upload raw data to /vast/scratch/users/yourname/ + any subfolder you desire
+4. Generate access token on Seqera and fill it in the Nextflow Tower Agent page
+5. Select Sarek_344 from Lanchpad and launch it
+6. Fill in Run setup configuration and lanch the pipeline
 
 ##### Sarek Input:
 The input file that Sarek takes is in CSV format with metadata. Listing sample information and corresponding FASTQ file paths. Each row represents a sample, with columns for patient ID, sample ID, sequencing lane, and paths to paired-end FASTQ files (fastq_1 and fastq_2). The FASTQ files must be gzip-compressed (.fastq.gz) for compatibility with bioinformatics tools. Additional columns like sex, status, and spring file paths may provide further metadata or alternative file formats.
