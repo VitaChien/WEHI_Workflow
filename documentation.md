@@ -76,6 +76,7 @@ Galaxy was initially chosen for its ability to deliver quick results and provide
 **Step 2: Variant Calling with FreeBayes**
 
 *Input:* BAM file, Reference genome
+
 *Output:* VCF file (Variant Call Format)
 
 Filter and annotate the VCF file if needed.
@@ -83,6 +84,7 @@ Filter and annotate the VCF file if needed.
 **Step 3: VCF to MAF Conversion**
 
 *Input:* VCF file, Reference genome
+
 *Output:* MAF file (tabular)
 
 Convert the VCF file to MAF (Mutation Annotation Format) using the appropriate tool (e.g., vcf2maf).
