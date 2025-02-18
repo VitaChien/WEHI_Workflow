@@ -64,6 +64,28 @@ Galaxy was initially chosen for its ability to deliver quick results and provide
 
 ### Galaxy analysis: 
 
+  **Step 1: Read Mapping with BWA-MEM**
+*Input:* FASTQ files, Reference genome
+*Output:* CRAM/BAM files
+
+1. Upload raw sequencing reads (FASTQ files) to Galaxy.
+2. Select the corresponding reference genome.
+3. Run BWA-MEM to align reads to the reference genome. 
+
+
+**Step 2: Variant Calling with FreeBayes**
+
+*Input:* BAM file, Reference genome
+*Output:* VCF file (Variant Call Format)
+
+Filter and annotate the VCF file if needed.
+
+**Step 3: VCF to MAF Conversion**
+*Input:* VCF file, Reference genome
+*Output:* MAF file (tabular)
+
+Convert the VCF file to MAF (Mutation Annotation Format) using the appropriate tool (e.g., vcf2maf).
+
 
 ## Nextflow for WGS
 Nextflow was adopted to overcome the limitations of Galaxy, particularly in handling large-scale datasets and ensuring workflow scalability. While Galaxy offered a quick and accessible solution for initial analyses, its constraints in automation, reproducibility, and resource management were an issue in dealing with a large dataset.
