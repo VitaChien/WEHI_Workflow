@@ -81,10 +81,13 @@ Galaxy was initially chosen for its ability to deliver quick results and provide
 Filter and annotate the VCF file if needed.
 
 **Step 3: VCF to MAF Conversion**
+
 *Input:* VCF file, Reference genome
 *Output:* MAF file (tabular)
 
 Convert the VCF file to MAF (Mutation Annotation Format) using the appropriate tool (e.g., vcf2maf).
+
+![Galaxy Diagram](https://github.com/VitaChien/WEHI_Workflow/blob/add/screenshots/screenshots/Galaxy%20workflow%20diagram.png)
 
 
 ## Nextflow for WGS
