@@ -107,9 +107,9 @@ For Whole Genome Sequencing (WGS), Nextflow provides an integrated nf-core pipel
 
 1. Request an access to Milton HPC refer to this link: [https://wehieduau.sharepoint.com/sites/rc2/SitePages/using-milton.aspx]
 2. Submit tickets to ask for access to Seqera
-3. Upload raw data to /vast/scratch/users/yourname/ + any subfolder you desire
+3. Upload raw data to `/vast/scratch/users/yourname/` + any subfolder you desire
 4. Generate access token on Seqera and fill it in the Nextflow Tower Agent page
-5. Select Sarek_344 from Lanchpad and launch it
+5. Select `Sarek_344` from Lanchpad and launch it
 6. Fill in Run setup configuration and launch the pipeline
 
 ##### Sarek Input:
