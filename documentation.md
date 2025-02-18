@@ -32,7 +32,7 @@ As the **Workflow Team**, our role is central to transforming raw sequencing dat
 - Regular communication ensures workflow efficiency, error handling, and data integrity.  
 - Feedback loops help refine processing pipelines and improve output usability.  
 
-![Workflow Chart](/Users/daniaistwani/Desktop/workflow_chart.png)
+![Workflow Chart](https://github.com/VitaChien/WEHI_Workflow/blob/add/screenshots/screenshots/workflow%3Ateam_based_data.jpg)
 
 Our collaboration ensures that **raw data is efficiently processed, stored, and made available for meaningful analysis**, ultimately supporting research advancements. 🚀
 
@@ -65,7 +65,9 @@ Galaxy was initially chosen for its ability to deliver quick results and provide
 ### Galaxy analysis: 
 
   **Step 1: Read Mapping with BWA-MEM**
+  
 *Input:* FASTQ files, Reference genome
+
 *Output:* CRAM/BAM files
 
 1. Upload raw sequencing reads (FASTQ files) to Galaxy.
